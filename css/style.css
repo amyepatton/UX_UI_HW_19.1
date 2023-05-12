@@ -2,12 +2,12 @@ body {
   margin: 0;
 }
 header {
-  background-color: #373738;
+  background-color: white;
   padding: 15px;
 }
 header ul {
   float: right;
-  color: white;
+  color: #1D1E2C;
 }
 header li {
   display: inline-block;
@@ -17,35 +17,27 @@ header p {
   display: inline-block;
 }
 .heroImg {
-  background-color: #EBEBEB;
+  background-color: white;
   padding: 100px 15px;
 }
 .content {
   max-width: 300px;
   margin: 0 auto;
   padding: 50px;
-  background-color: #FFFFFF;
+  background-color: white;
   text-align: center;
 }
 button {
   padding: 15px;
-  background-color: #373738;
-  color: white;
+  background-color: #F4D35E;
+  color: #1D1E2C;
   font-size: 15px;
-  border-radius: 4px;
 }
 footer {
-  background-color: #373738;
+  background-color: #1D1E2C;
   padding: 5px;
-  color: white;
-}
-footer ul {
-  list-style: none;
-  padding-left: 5px;
-}
-footer li {
-  display: inline-block;
-  padding: 0px 7px;
+  text-align: center;
+  color: #FFFFFA;
 }
 .heading {
   text-align: center;
@@ -66,7 +58,7 @@ footer li {
 .myWork {
   padding: 60px 30px;
   padding-top: 0;
-  background-color: #EBEBEB;
+  background-color: white;
 }
 .workGrid {
   display: grid;
@@ -74,7 +66,7 @@ footer li {
   grid-template-rows: 350px 350px 350px;
   grid-template-areas:
   "img1 content1"
-  "img2 content2"
+  "content2 img2"
   "img3 content3"
   ;
 }
@@ -98,10 +90,13 @@ footer li {
 }
 .content1 {
   grid-area: content1;
+  background-color: rgba(244, 214, 204, .5)
 }
 .content2 {
   grid-area: content2;
+  background-color: rgba(244, 214, 204, .5)
 }
 .content3 {
   grid-area: content3;
+  background-color: rgba(244, 214, 204, .5)
 }
